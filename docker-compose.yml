@@ -16,3 +16,8 @@
       - 27018:27017
     volumes:
       - /var/lib/mongodb/data
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    ports:
+      - 5673:5672
+      - 15673:15672
