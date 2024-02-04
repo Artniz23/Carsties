@@ -21,4 +21,11 @@
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="..\.dockerignore">
+	    <Link>.dockerignore</Link>
+	    <DependentUpon>Dockerfile</DependentUpon>
+	  </Content>
+	</ItemGroup>
 </Project>
