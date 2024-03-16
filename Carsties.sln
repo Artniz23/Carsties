@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayService", "GatewaySe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiddingService", "BiddingService\BiddingService.csproj", "{A4244E20-CCF4-47EB-B166-6EA9D58E6684}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "NotificationService\NotificationService.csproj", "{783BE53D-CFE8-4C29-A6B9-825409D772E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,5 +45,9 @@ Global
 		{A4244E20-CCF4-47EB-B166-6EA9D58E6684}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4244E20-CCF4-47EB-B166-6EA9D58E6684}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4244E20-CCF4-47EB-B166-6EA9D58E6684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783BE53D-CFE8-4C29-A6B9-825409D772E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783BE53D-CFE8-4C29-A6B9-825409D772E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783BE53D-CFE8-4C29-A6B9-825409D772E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783BE53D-CFE8-4C29-A6B9-825409D772E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

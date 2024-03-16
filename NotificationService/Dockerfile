@@ -17,14 +17,14 @@ COPY NotificationService/NotificationService.csproj NotificationService/Notifica
 RUN dotnet restore Carsties.sln
 
 # Copy the src folders over
-COPY BiddingService BiddingService
+COPY NotificationService NotificationService
 COPY Contracts Contracts
 
-WORKDIR /src/BiddingService
+WORKDIR /src/NotificationService
 RUN dotnet publish -c Release -o /src/out
 
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /src
 COPY --from=build /src/out .
-ENTRYPOINT ["dotnet", "BiddingService.dll"]
+ENTRYPOINT ["dotnet", "NotificationService.dll"]
